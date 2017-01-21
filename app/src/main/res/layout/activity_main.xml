@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,10 +8,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.photo.vision.visionphoto.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnSpellChecker"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:text="Spell checker" />
+    <Button
+        android:id="@+id/btnTextRecog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text recognizer" />
+    <Button
+        android:id="@+id/btnTimingLogger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimingLogger" />
+    <Button
+        android:id="@+id/btnScreenshot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screenshot" />
+    <Button
+        android:id="@+id/btnPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF Create" />
+</LinearLayout>
