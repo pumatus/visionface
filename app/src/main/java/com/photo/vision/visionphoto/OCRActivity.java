@@ -3,6 +3,7 @@ package com.photo.vision.visionphoto;
 import android.support.v7.app.AppCompatActivity;
 
 import com.google.android.gms.vision.CameraSource;
+import com.photo.vision.visionphoto.ocr.CameraSourcePreview;
 
 /**
  * Created by Hongd on 2017/1/21.
@@ -19,5 +20,6 @@ public class OCRActivity extends AppCompatActivity{
     public static final String UseFlash  = "UseFlash";
 
     private CameraSource mCameraSource;
-//    private CameraSourcePreView mCameraSourcePreView;
+    private CameraSourcePreview mCameraSourcePreView;
+
 }
