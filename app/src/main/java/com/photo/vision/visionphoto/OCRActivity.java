@@ -1,9 +1,12 @@
 package com.photo.vision.visionphoto;
 
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
 import com.photo.vision.visionphoto.ocr.CameraSourcePreview;
+
+import butterknife.BindView;
 
 /**
  * Created by Hongd on 2017/1/21.
@@ -22,4 +25,7 @@ public class OCRActivity extends AppCompatActivity{
     private CameraSource mCameraSource;
     private CameraSourcePreview mCameraSourcePreView;
 
+
+    @BindView(R.id.tvOcrResult)
+    TextView tvOcrResult;
 }
