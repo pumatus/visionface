@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">Photo Demo</string>
+    <!--<string name="app_name">Photo Demo</string>-->
     <string name="title_activity_photo_viewer">Photo Viewer</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="app_name">AndroidAPIDemos</string>
+    <string name="btn_ok">Ok</string>
+    <string name="txt_no_camera_permission">No camera permission</string>
+    <string name="btn_start">Start</string>
+    <string name="hint_enter_text">Enter text here</string>
+    <string name="btn_create_pdf">Create PDF</string>
+    <string name="btn_take_screenshot">Take screenshot</string>
 </resources>
